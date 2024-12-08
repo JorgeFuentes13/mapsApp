@@ -22,7 +22,7 @@ export class ZoomRangePageComponent implements OnInit, AfterViewInit, OnDestroy 
   public currentlngLat: LngLat = new LngLat(139.753, 35.6844)
 
   ngOnInit(): void {
-    config.apiKey = 'GvKM1Y9mCWbV4lcZPD4e'
+    config.apiKey = ''
   }
 
   ngAfterViewInit(): void {

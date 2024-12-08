@@ -17,7 +17,7 @@ export class FullScreenPageComponent implements OnInit, AfterViewInit, OnDestroy
   private mapContainer!: ElementRef<HTMLElement>;
 
   ngOnInit(): void {
-    config.apiKey = 'GvKM1Y9mCWbV4lcZPD4e'
+    config.apiKey = ''
   }
   ngAfterViewInit(): void {
     

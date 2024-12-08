@@ -34,7 +34,7 @@ export class MarkersPageComponent implements OnInit, AfterViewInit, OnDestroy{
 
 
   ngOnInit(): void {
-    config.apiKey = 'GvKM1Y9mCWbV4lcZPD4e'
+    config.apiKey = ''
   }
 
   ngAfterViewInit(): void {
